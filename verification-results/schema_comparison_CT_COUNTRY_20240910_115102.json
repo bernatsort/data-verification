@@ -1,0 +1,28 @@
+{
+    "schema_check_status": "FAIL",
+    "table": "CT_COUNTRY",
+    "mismatches": [
+        {
+            "COLUMN_NAME": "INGESTION_TIMESTAMP",
+            "ATTRIBUTE": "NUMERIC_PRECISION",
+            "EXPECTED": 13.0,
+            "ACTUAL": 14
+        },
+        {
+            "COLUMN_NAME": "AUDIT_TASK_ID",
+            "ATTRIBUTE": "IS_NULLABLE",
+            "EXPECTED": "NO",
+            "ACTUAL": "YES"
+        },
+        {
+            "COLUMN_NAME": "_HOODIE_COMMIT_TIME",
+            "ATTRIBUTE": "DATA_TYPE",
+            "EXPECTED": "DATE",
+            "ACTUAL": "TEXT"
+        }
+    ],
+    "missing_columns": [
+        "INT_CRE_T",
+        "NEW_COLUMN"
+    ]
+}
