@@ -1,7 +1,7 @@
 import snowflake.connector
 import re
-from secrets_manager import get_secrets
-from config_variables import snowflake_config
+from .secrets_manager import get_secrets
+from .config_variables import snowflake_config
 from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.backends import default_backend
 
